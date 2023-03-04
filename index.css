@@ -1,0 +1,47 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.heading {
+  color: #0f172a;
+  font-size: 32px;
+  font-family: roboto;
+  font-weight: bold;
+  justify-content: center;
+}
+.box1 {
+  background-color: #0b69ff;
+}
+.box2 {
+  background-color: #2dca73;
+}
+.box3 {
+  background-color: #ffb800;
+}
+.box4 {
+  background-color: #ff0b37;
+}
+ul {
+  display: flex;
+  flex-direction: center;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  color: #ffffff;
+  padding: 10px;
+  margin: 10px;
+  list-style: none;
+  width: 85%;
+  border-radius: 15px;
+}
+img {
+  height: 20px;
+  align-self: center;
+  padding: 15px;
+}
